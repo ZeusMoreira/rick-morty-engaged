@@ -21,4 +21,4 @@ Aplicação web construída com Vue 3, Quasar Framework e Apollo Client que cons
 
 ## 📦 Deploy
 
-Disponível em: `https://rick-morty-engaged-ngb8.vercel.app/`  
+Disponível em: [Rick Morty Desafio Engaged Zeus Moreira](https://rick-morty-engaged-ngb8.vercel.app/)
