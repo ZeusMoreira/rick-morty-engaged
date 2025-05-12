@@ -1,25 +1,39 @@
-# 🧪 Rick and Morty Explorer
+# rick-morty-engaged
 
-Aplicação web construída com Vue 3, Quasar Framework e Apollo Client que consome a API GraphQL do universo **Rick and Morty**.
+This template should help get you started developing with Vue 3 in Vite.
 
-## ✨ Funcionalidades
+## Recommended IDE Setup
 
-- 🔍 Buscar personagens pelo nome  
-- 📄 Ver detalhes completos de cada personagem  
-- 📦 Navegar entre páginas de resultados  
-- ⚡ Interface responsiva com componentes do Quasar  
-- 🚀 Integração com GraphQL via Apollo Client
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## 🛠️ Tecnologias utilizadas
+## Type Support for `.vue` Imports in TS
 
-- [Vue 3 + Vite](https://vuejs.org/)
-- [Quasar Framework](https://quasar.dev/)
-- [Apollo Client](https://www.apollographql.com/docs/)
-- [GraphQL Rick and Morty API](https://rickandmortyapi.com/graphql)
-- [TypeScript](https://www.typescriptlang.org/)
-- [GitHub Pages](https://pages.github.com/) (para deploy)
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## 📦 Deploy
+## Customize configuration
 
-Disponível em: ``  
+See [Vite Configuration Reference](https://vite.dev/config/).
 
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
